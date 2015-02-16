@@ -433,7 +433,7 @@ class Swift extends Swift_Plugin_Base {
 
 		$swift = $this->swift_get_vcap_variable('objectstorage');
 		$creds = $swift['credentials'];
-		$auth_uri = $creds['global_account_auth_uri'];
+		$auth_uri = $creds['auth_url'];
 		$user = $creds['username'];
 		$password = $creds['password'];
 
