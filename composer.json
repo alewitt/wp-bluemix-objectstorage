@@ -23,6 +23,6 @@
     "homepage": "https://github.com/ibmjstart/",
     "license": "GPLv3",
     "require": { 
-        "ibmjstart/zendservice-openstack"   : "dev-master"
+        "ibmjstart/zendservice-openstack"   : "dev-miguel"
     }
 }
