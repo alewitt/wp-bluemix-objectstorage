@@ -433,7 +433,7 @@ class Swift extends Swift_Plugin_Base {
 
 		$swift = $this->swift_get_vcap_variable('Object Storage');
 		$creds = $swift['credentials'];
-		$auth_uri = $creds['auth_url'];	//Create an object storage subaccount for WordPress.
+		$auth_uri = $creds['global_account_auth_uri'];	//Create an object storage subaccount for WordPress.
 		$user = $creds['username'];
 		$password = $creds['password'];
 
